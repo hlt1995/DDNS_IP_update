@@ -1,11 +1,5 @@
 #!/bin/sh
 
-/*
-cron: */10 * * * *
-*/
-
-const $ = new Env('YDNS IP更新');
-
 # YDNS DDNS 更新脚本 for 青龙面板 (带IP变化检测)
 # 优化内容：
 # 1. 添加IP变化检测，避免不必要的更新
