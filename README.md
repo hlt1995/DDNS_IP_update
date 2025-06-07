@@ -5,3 +5,5 @@
 拉库指令：ql repo https://github.com/hlt1995/IPupdate.git
 
 拉取的文件后缀名：sh txt
+
+建议定时：*/10 * * * *
