@@ -5,6 +5,7 @@ cron: */10 * * * *
 */
 
 const $ = new Env('YDNS IP更新');
+
 # YDNS DDNS 更新脚本 for 青龙面板 (带IP变化检测)
 # 优化内容：
 # 1. 添加IP变化检测，避免不必要的更新
@@ -20,7 +21,7 @@ YDNS_PASS=""       # YDNS密码
 IP_API="http://members.3322.org/dyndns/getip"
 
 # 上次IP记录文件（用于检测变化）
-IP_FILE="/ql/scripts/hlt1995_IPupdate/last_ip.txt"
+IP_FILE="/ql/scripts/hlt1995_IPupdate/YDNS_last_ip.txt"
 
 # 调试模式（true时显示详细输出）
 DEBUG="false"
