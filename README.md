@@ -11,3 +11,5 @@ DuckDNS：https://www.duckdns.org
 拉取的文件后缀名：sh txt
 
 建议定时：*/10 * * * *
+
+运行前需要在脚本里自行配置用户信息
